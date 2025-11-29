@@ -55,7 +55,7 @@ This system provides two user roles:
 
 | Login                             | Registration                            |
 | --------------------------------- | --------------------------------------- |
-| ![Login](./screenshots/login.png) | ![Register](./screenshots/register.png) |
+| ![Login](./screenshots/login.png) | ![Register](./Images/Screenshot 2025-11-30 021632.png) |
 
 ---
 
