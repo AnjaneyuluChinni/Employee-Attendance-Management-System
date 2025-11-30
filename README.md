@@ -3,6 +3,7 @@
 A full-stack attendance tracking platform built for **Employees** and **Managers**, featuring secure authentication, daily check-in/out, attendance dashboards, reporting, and team analytics.
 
 🔗 Live Demo: https://time-tracker-pro-1.onrender.com
+---
 💻 GitHub Repo: https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System
 
 ---
