@@ -55,7 +55,7 @@ This system provides two user roles:
 
 | Login                             | Registration                            |
 | --------------------------------- | --------------------------------------- |
-| ![Login](./screenshots/login.png) | ![Register](Images/Register) |
+| ![Login](Images/Login) | ![Register](Images/Register) |
 
 ---
 
@@ -67,25 +67,25 @@ This system provides two user roles:
 
 ### 📆 **Attendance History**
 
-![Attendance History](Images/Screenshot 2025-11-30 021820.png)
+![Attendance History](Images/EmpHistroy)
 
 ---
 
 ### 🟢 **Check-In / Check-Out Page**
 
-![Mark Attendance](./screenshots/checkin-checkout.png)
+![Mark Attendance](Images/MarkAttandance)
 
 ---
 
 ### 👨‍💼 Manager Dashboard
 
-![Manager Dashboard](./screenshots/manager-dashboard.png)
+![Manager Dashboard](Images/ManagerDash)
 
 ---
 
 ### 📊 Reports & CSV Export
 
-![Reports](./screenshots/reports.png)
+![Reports](Images/Reports)
 
 ---
 
