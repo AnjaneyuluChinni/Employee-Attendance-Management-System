@@ -61,7 +61,7 @@ This system provides two user roles:
 
 ### 🧑‍💼 **Employee Dashboard**
 
-![Employee Dashboard](.Images/EmployeeDashboard)
+![Employee Dashboard](Images/EmployeeDashboard)
 
 ---
 
