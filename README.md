@@ -82,10 +82,21 @@ This system provides two user roles:
 ![Manager Dashboard](Images/ManagerDash)
 
 ---
-
 ### 📊 Reports & CSV Export
 
-![Reports](Images/Reports)
+![Reports](Images/EmpFilter)
+![Reports](Images/EmpFilter2)
+
+
+---
+### 📊 Team Calender
+
+![Reports](Images/Team Calender)
+
+---
+### 📊 Reports & CSV Export
+
+![Reports](Images/ReportsMan)
 
 ---
 
