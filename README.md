@@ -49,8 +49,6 @@ This system provides two user roles:
 
 # 🖼 **Screenshots**
 
-> Replace the placeholders `./screenshots/...` with your actual image paths.
-
 ### 🔐 **Auth Screens**
 
 | Login                             | Registration                            |
@@ -82,7 +80,7 @@ This system provides two user roles:
 ![Manager Dashboard](Images/ManagerDash)
 
 ---
-### 📊 Reports & CSV Export
+### 📊 Employees Filters
 
 ![Reports](Images/EmpFilter)
 ![Reports](Images/EmpFilter2)
@@ -91,7 +89,7 @@ This system provides two user roles:
 ---
 ### 📊 Team Calender
 
-![Reports](Images/Team Calender)
+![Reports](Images/TeamCalender)
 
 ---
 ### 📊 Reports & CSV Export
