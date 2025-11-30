@@ -61,13 +61,13 @@ This system provides two user roles:
 
 ### 🧑‍💼 **Employee Dashboard**
 
-![Employee Dashboard](./screenshots/employee-dashboard.png)
+![Employee Dashboard](.Images/EmployeeDashboard)
 
 ---
 
 ### 📆 **Attendance History**
 
-![Attendance History](./screenshots/attendance-history.png)
+![Attendance History](Images/Screenshot 2025-11-30 021820.png)
 
 ---
 
