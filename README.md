@@ -1,6 +1,6 @@
-Name: Chinni Anjaneyulu
-College Name: Mohan Babu University
-Contact Number: 6304979694
+**Name: Chinni Anjaneyulu**
+**College Name: Mohan Babu University**
+**Contact Number: 6304979694**
 
 # 📌 **Employee Attendance Management System**
 
