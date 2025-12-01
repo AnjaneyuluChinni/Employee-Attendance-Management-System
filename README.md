@@ -1,3 +1,7 @@
+Name: Chinni Anjaneyulu
+College Name: Mohan Babu University
+Contact Number: 6304979694
+
 # 📌 **Employee Attendance Management System**
 
 A full-stack attendance tracking platform built for **Employees** and **Managers**, featuring secure authentication, daily check-in/out, attendance dashboards, reporting, and team analytics.
