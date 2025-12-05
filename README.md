@@ -30,7 +30,7 @@ A full-stack attendance tracking platform built for **Employees** and **Managers
 
 ### **Database**
 
-* MongoDB 
+* PostgreSQL
 
 ---
 
