@@ -1,0 +1,58 @@
+[
+  {
+    "userId": "EMP001",
+    "date": "2025-01-10",
+    "checkInTime": "09:10",
+    "checkOutTime": "17:45",
+    "status": "present",
+    "totalHours": 8.5
+  },
+  {
+    "userId": "EMP001",
+    "date": "2025-01-11",
+    "checkInTime": "09:05",
+    "checkOutTime": "17:30",
+    "status": "present",
+    "totalHours": 8.4
+  },
+  {
+    "userId": "EMP001",
+    "date": "2025-01-12",
+    "checkInTime": null,
+    "checkOutTime": null,
+    "status": "absent",
+    "totalHours": null
+  },
+  {
+    "userId": "EMP001",
+    "date": "2025-01-13",
+    "checkInTime": "09:45",
+    "checkOutTime": "18:00",
+    "status": "late",
+    "totalHours": 7.8
+  },
+  {
+    "userId": "EMP002",
+    "date": "2025-01-10",
+    "checkInTime": "10:05",
+    "checkOutTime": "18:00",
+    "status": "late",
+    "totalHours": 7.9
+  },
+  {
+    "userId": "EMP002",
+    "date": "2025-01-11",
+    "checkInTime": "09:20",
+    "checkOutTime": "17:10",
+    "status": "present",
+    "totalHours": 7.8
+  },
+  {
+    "userId": "EMP002",
+    "date": "2025-01-12",
+    "checkInTime": null,
+    "checkOutTime": null,
+    "status": "absent",
+    "totalHours": null
+  }
+]
