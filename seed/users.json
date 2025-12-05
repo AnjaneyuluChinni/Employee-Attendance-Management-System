@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Manager User",
+    "email": "manager@test.com",
+    "password": "123456",
+    "role": "manager",
+    "employeeId": "MNG001",
+    "department": "Engineering"
+  },
+  {
+    "name": "John Doe",
+    "email": "emp1@test.com",
+    "password": "123456",
+    "role": "employee",
+    "employeeId": "EMP001",
+    "department": "Frontend Team"
+  },
+  {
+    "name": "Sarah Smith",
+    "email": "emp2@test.com",
+    "password": "123456",
+    "role": "employee",
+    "employeeId": "EMP002",
+    "department": "Backend Team"
+  }
+]
