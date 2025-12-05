@@ -1,14 +1,14 @@
 # **Personal Details**
 
-**Name:** Chinni Anjaneyulu
-**College:** Mohan Babu University
-**Contact:** 6304979694
-
+Name: Chinni Anjaneyulu
+College: Mohan Babu University
+Contact: 6304979694
+Email: chinni.anjaneyulu22@gmail.com
 ---
 # **Employee Attendance Management System**
 
 A modern attendance tracking platform built for employees and managers. The system includes secure authentication, daily check-in/check-out, attendance history, dashboards, reporting, and team analytics.
-Built using **React, Supabase, and TailwindCSS** and deployed on **Render**.
+Built using **React, Node Js, Supabase, and TailwindCSS** and deployed on **Render**.
 
 ---
 
@@ -69,6 +69,7 @@ Password: 123456
 
 ### Backend (Supabase)
 
+* Node and Express Js
 * Authentication
 * PostgreSQL Database
 * Row-Level Security (RLS)
@@ -177,7 +178,7 @@ The system supports two user roles:
 ```
 React Frontend
    |
-   |— Supabase Client (Authentication, Database, Realtime)
+   |— Supabase Client (Node, Authentication, Database, Realtime)
            |
            └── PostgreSQL Database
 ```
