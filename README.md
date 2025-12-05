@@ -19,8 +19,8 @@ A full-stack attendance tracking platform built for **Employees** and **Managers
 ### **Frontend**
 
 * React
-* Redux Toolkit / Zustand
-* TailwindCSS or CSS
+* Redux Toolkit 
+* TailwindCSS & CSS
 
 ### **Backend**
 
@@ -30,7 +30,7 @@ A full-stack attendance tracking platform built for **Employees** and **Managers
 
 ### **Database**
 
-* MongoDB **or** PostgreSQL
+* MongoDB 
 
 ---
 
