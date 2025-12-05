@@ -1,11 +1,3 @@
-Got you — you want a **clean, correct, copy-paste ready README.md** file (final version) to upload directly to GitHub.
-
-Here is the **final README.md** rewritten clearly, formatted properly, and matching your **React + Supabase** project.
-
-Just **copy this entire block** into your README.md:
-
----
-
 # 📌 **Employee Attendance Management System**
 
 A modern attendance tracking platform built for **Employees** and **Managers**, featuring secure authentication, daily check-in/out, attendance history, dashboards, team analytics, and reporting.
