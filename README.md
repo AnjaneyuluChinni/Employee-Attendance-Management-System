@@ -1,39 +1,37 @@
-# 📌 **Employee Attendance Management System**
-
-A modern attendance tracking platform built for **Employees** and **Managers**, featuring secure authentication, daily check-in/out, attendance history, dashboards, team analytics, and reporting.
-
-Built using **React + Supabase + TailwindCSS** and deployed on Render.
-
----
-
-## 🔗 **Live Demo**
-
-👉 [https://time-tracker-pro-1.onrender.com](https://time-tracker-pro-1.onrender.com)
-
-## 💻 **GitHub Repository**
-
-👉 [https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System](https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System)
-
----
-
-# 👤 **Developer Details**
+# **Personal Details**
 
 **Name:** Chinni Anjaneyulu
 **College:** Mohan Babu University
 **Contact:** 6304979694
 
 ---
+# **Employee Attendance Management System**
 
-# ⭐ **Seed Data (For Reviewer Testing)**
+A modern attendance tracking platform built for employees and managers. The system includes secure authentication, daily check-in/check-out, attendance history, dashboards, reporting, and team analytics.
+Built using **React, Supabase, and TailwindCSS** and deployed on **Render**.
 
-### **Manager Account**
+---
+
+## **Live Demo**
+
+[https://time-tracker-pro-1.onrender.com](https://time-tracker-pro-1.onrender.com)
+
+## **GitHub Repository**
+
+[https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System](https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System)
+
+---
+
+# **Seed Data for Reviewer Testing**
+
+### Manager Account
 
 ```
 Email: manager@test.com
 Password: 123456
 ```
 
-### **Employee Accounts**
+### Employee Accounts
 
 ```
 Email: emp1@test.com
@@ -45,10 +43,10 @@ Email: emp2@test.com
 Password: 123456
 ```
 
-### **Notes**
+### Notes
 
-* These sample accounts allow instant login for testing.
-* The database contains sample attendance records so dashboards, calendar, and reports show meaningful data.
+* These accounts allow quick login for testing.
+* The database contains sample attendance records so dashboards, calendars, and reports reflect meaningful data.
 * Reviewers can test:
 
   * Check-In / Check-Out
@@ -56,194 +54,165 @@ Password: 123456
   * Monthly summary
   * Manager dashboard
   * Team calendar
-  * Filters & CSV export
+  * Filters and CSV export
 
 ---
 
-# 🚀 **Tech Stack**
+# **Tech Stack**
 
-### **Frontend**
+### Frontend
 
 * React
 * Zustand / Redux Toolkit
 * TailwindCSS
 * Vite
 
-### **Backend (BaaS)**
+### Backend (Supabase)
 
-* **Supabase**
+* Authentication
+* PostgreSQL Database
+* Row-Level Security (RLS)
+* REST and Realtime APIs
 
-  * Authentication
-  * PostgreSQL Database
-  * Row-Level Security (RLS)
-  * REST & Realtime APIs
+### Deployment
 
-### **Deployment**
-
-* Render (Frontend hosting)
+* Render (Frontend Hosting)
 
 ---
 
-# 🧠 **Project Overview**
+# **Project Overview**
 
-The system supports **two user roles**:
+The system supports two user roles:
 
----
-
-## 👨‍💼 **Employee Features**
+## Employee Features
 
 * Login / Register
 * Daily Check-In / Check-Out
-* View attendance history
-* Monthly attendance summary
-* Dashboard with stats
+* Attendance history
+* Monthly summary
+* Employee dashboard
 * Profile page
 
----
-
-## 👩‍💼 **Manager Features**
+## Manager Features
 
 * Login
 * View attendance of all employees
 * Filter by employee, date, and status
 * Team attendance calendar
-* Export reports (CSV)
-* Team dashboard with charts
+* Export attendance reports (CSV)
+* Manager dashboard with visual charts
 
 ---
 
-# 🖼 **Screenshots**
+# **Screenshots**
 
-### 🔐 **Auth Screens**
+### Authentication Screens
 
-| Login                             | Registration                            |
-| --------------------------------- | --------------------------------------- |
+| Login                  | Registration                 |
+| ---------------------- | ---------------------------- |
 | ![Login](Images/Login) | ![Register](Images/Register) |
 
----
+### Employee Dashboard
 
-### 🧑‍💼 **Employee Dashboard**
+![Employee Dashboard](client/Images/EmployeeDashboard)
 
-![Employee Dashboard](Images/EmployeeDashboard)
+### Attendance History
 
----
+![Attendance History](client/Images/EmpHistroy)
 
-### 📆 **Attendance History**
+### Check-In / Check-Out
 
-![Attendance History](Images/EmpHistroy)
+![Mark Attendance](client/Images/MarkAttandance)
 
----
+### Manager Dashboard
 
-### 🟢 **Check-In / Check-Out Page**
+![Manager Dashboard](client/Images/ManagerDash)
 
-![Mark Attendance](Images/MarkAttandance)
+### Employee Filters
 
----
+![Reports](client/Images/EmpFilter)
+![Reports](client/Images/EmpFilter2)
 
-### 👨‍💼 Manager Dashboard
+### Team Calendar
 
-![Manager Dashboard](Images/ManagerDash)
+![Team Calendar](client/Images/TeamCalender)
 
----
-### 📊 Employees Filters
+### Reports and CSV Export
 
-![Reports](Images/EmpFilter)
-![Reports](Images/EmpFilter2)
-
-
----
-### 📊 Team Calender
-
-![Reports](Images/TeamCalender)
-
----
-### 📊 Reports & CSV Export
-
-![Reports](Images/ReportsMan)
+![Reports](client/Images/ReportsMan)
 
 ---
 
+# **Database Schema (Supabase PostgreSQL)**
 
-# 🗄 **Database Schema (Supabase PostgreSQL)**
+## Users Table
 
-## **Users Table**
+| Column     | Type      | Description        |
+| ---------- | --------- | ------------------ |
+| id         | uuid      | User ID            |
+| name       | text      | Employee name      |
+| email      | text      | Login email        |
+| role       | text      | employee / manager |
+| employeeId | text      | Employee code      |
+| department | text      | Department name    |
+| createdAt  | timestamp | Created timestamp  |
 
-| Column     | Type      | Description          |
-| ---------- | --------- | -------------------- |
-| id         | uuid      | user ID              |
-| name       | text      | employee name        |
-| email      | text      | login email          |
-| role       | text      | employee / manager   |
-| employeeId | text      | unique employee code |
-| department | text      | department name      |
-| createdAt  | timestamp | creation time        |
-
----
-
-## **Attendance Table**
+## Attendance Table
 
 | Column       | Type      | Description             |
 | ------------ | --------- | ----------------------- |
-| id           | uuid      | record ID               |
-| userId       | uuid      | references users(id)    |
-| date         | date      | attendance date         |
-| checkInTime  | time      | check-in time           |
-| checkOutTime | time      | check-out time          |
+| id           | uuid      | Record ID               |
+| userId       | uuid      | References users(id)    |
+| date         | date      | Attendance date         |
+| checkInTime  | time      | Check-in time           |
+| checkOutTime | time      | Check-out time          |
 | status       | text      | present / absent / late |
-| totalHours   | numeric   | hours worked            |
-| createdAt    | timestamp | record timestamp        |
+| totalHours   | numeric   | Hours worked            |
+| createdAt    | timestamp | Record creation time    |
 
 ---
 
-# 🔌 **Architecture Overview**
+# **Architecture Overview**
 
 ```
 React Frontend
    |
-   |— Supabase Client (Auth, DB, Realtime)
+   |— Supabase Client (Authentication, Database, Realtime)
            |
            └── PostgreSQL Database
 ```
 
-* Supabase handles authentication, database, and role access.
-* React manages UI, state, and API consumption.
-* Row-Level Security ensures employees only access their own records.
-* Managers have extended privileges via policy rules.
+* Supabase manages authentication, database, and access control.
+* React handles UI, routing, and state management.
+* RLS ensures employees access only their data.
+* Managers receive elevated access based on policies.
 
 ---
 
-# ⚙️ **Setup Instructions (Local Development)**
+# **Local Development Setup**
 
-### **1. Clone the Repository**
+### 1. Clone the Repository
 
 ```sh
 git clone https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System
 cd Employee-Attendance-Management-System
 ```
 
----
-
-### **2. Install Dependencies**
+### 2. Install Dependencies
 
 ```sh
 npm install
 ```
 
----
-
-### **3. Create `.env` File**
-
-Create `.env` in the root:
+### 3. Create `.env` File
 
 ```
-VITE_SUPABASE_URL=your_supabase_url_here
-VITE_SUPABASE_PUBLISHABLE_KEY=your_anon_key_here
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_anon_key
 VITE_SUPABASE_PROJECT_ID=your_project_id
 ```
 
----
-
-### **4. Start App**
+### 4. Start Development Server
 
 ```sh
 npm run dev
@@ -251,7 +220,7 @@ npm run dev
 
 ---
 
-# 🌍 **Environment Variables (`.env.example`)**
+# **Environment Variables (`.env.example`)**
 
 ```
 VITE_SUPABASE_URL=
@@ -261,14 +230,14 @@ VITE_SUPABASE_PROJECT_ID=
 
 ---
 
-# 📁 **Folder Structure**
+# **Folder Structure**
 
 ```
 /public
 /src
   /components
   /pages
-  /store (Zustand / Redux)
+  /store
   /utils
 /supabase
 /Images
@@ -280,32 +249,27 @@ VITE_SUPABASE_PROJECT_ID=
 
 ---
 
-# 🧪 **Seed Files**
+# **Seed Files**
 
 Located in `/seed`:
 
-* `users.json` → sample users
-* `attendance.json` → sample attendance records
+* `users.json` – sample user accounts
+* `attendance.json` – sample attendance records
 
-Used to demonstrate real data on dashboards & reports.
-
----
-
-# 🏁 **Conclusion**
-
-This project demonstrates:
-
-✔ Modern frontend engineering
-✔ Authentication & role-based access
-✔ Real-time attendance tracking
-✔ Manager reporting & analytics
-✔ Supabase as production-ready backend
-✔ Clean architecture & UI
+Used for demonstrating dashboards, reports, and analytics.
 
 ---
 
-# 🎉 **Thank You for Reviewing!**
+# **Conclusion**
 
-For any clarifications or demo walkthrough, feel free to reach out.
+This project showcases:
+
+* Modern frontend engineering
+* Authentication and role-based access
+* Realtime attendance tracking
+* Manager-level analytics and reporting
+* Supabase as a scalable backend
+* Clean architecture and responsive UI
 
 ---
+
