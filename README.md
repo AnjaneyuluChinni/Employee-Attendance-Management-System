@@ -9,10 +9,48 @@
 A full-stack attendance tracking platform built for **Employees** and **Managers**, featuring secure authentication, daily check-in/out, attendance dashboards, reporting, and team analytics.
 
 🔗 Live Demo: https://time-tracker-pro-1.onrender.com
----
 💻 GitHub Repo: https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System
 
 ---
+
+
+```md
+## ⭐ Seed Data (For Reviewer Testing)
+
+### **Manager Account**
+```
+
+Email: [manager@test.com](mailto:manager@test.com)
+Password: 123456
+
+```
+
+### **Employee Accounts**
+```
+
+Email: [emp1@test.com](mailto:emp1@test.com)
+Password: 123456
+
+```
+```
+
+Email: [emp2@test.com](mailto:emp2@test.com)
+Password: 123456
+
+```
+
+### **Notes**
+- These sample accounts allow reviewers to test the app instantly without registering new users.  
+- The database contains sample attendance records so dashboards, calendar, reports, and summaries display real data.  
+- Reviewers can test:
+  - Check-In / Check-Out  
+  - Attendance History  
+  - Monthly Summary  
+  - Manager Dashboard  
+  - Team Attendance Page  
+  - CSV Exports  
+```
+
 
 ## 🚀 **Tech Stack**
 
