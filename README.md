@@ -110,7 +110,7 @@ The system supports two user roles:
 
 | Login                  | Registration                 |
 | ---------------------- | ---------------------------- |
-| ![Login](Images/Login) | ![Register](Images/Register) |
+| ![Login](client/Images/Login) | ![Register](client/Images/Register) |
 
 ### Employee Dashboard
 
