@@ -1,99 +1,113 @@
-**Name: Chinni Anjaneyulu**
----
-**College Name: Mohan Babu University**
----
-**Contact Number: 6304979694**
----
-# 📌 **Employee Attendance Management System**
+📌 Employee Attendance Management System
 
-A full-stack attendance tracking platform built for **Employees** and **Managers**, featuring secure authentication, daily check-in/out, attendance dashboards, reporting, and team analytics.
+A modern attendance tracking platform built for Employees and Managers, featuring secure authentication, daily check-in/out, attendance history, dashboards, team analytics, and reporting.
 
-🔗 Live Demo: https://time-tracker-pro-1.onrender.com
-💻 GitHub Repo: https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System
+Built using React + Supabase + TailwindCSS and deployed on Render.
 
----
+🔗 Live Demo
 
+👉 https://time-tracker-pro-1.onrender.com
 
-```md
-## ⭐ Seed Data (For Reviewer Testing)
+💻 GitHub Repository
 
-### **Manager Account**
-```
+👉 https://github.com/AnjaneyuluChinni/Employee-Attendance-Management-System
 
-Email: [manager@test.com](mailto:manager@test.com)
+👤 Developer Details
+
+Name: Chinni Anjaneyulu
+College: Mohan Babu University
+Contact: 6304979694
+
+⭐ Seed Data (For Reviewer Testing)
+Manager Account
+Email: manager@test.com
 Password: 123456
 
-```
-
-### **Employee Accounts**
-```
-
-Email: [emp1@test.com](mailto:emp1@test.com)
+Employee Accounts
+Email: emp1@test.com
 Password: 123456
 
-```
-```
-
-Email: [emp2@test.com](mailto:emp2@test.com)
+Email: emp2@test.com
 Password: 123456
 
-```
+Notes
 
-### **Notes**
-- These sample accounts allow reviewers to test the app instantly without registering new users.  
-- The database contains sample attendance records so dashboards, calendar, reports, and summaries display real data.  
-- Reviewers can test:
-  - Check-In / Check-Out  
-  - Attendance History  
-  - Monthly Summary  
-  - Manager Dashboard  
-  - Team Attendance Page  
-  - CSV Exports  
-```
+These sample accounts allow instant login for testing.
 
+Attendance data is pre-filled in Supabase so dashboards, calendar, and reports show meaningful data.
 
-## 🚀 **Tech Stack**
+Reviewers can test:
 
-### **Frontend**
+Check-in/out
 
-* React
-* Redux Toolkit 
-* TailwindCSS & CSS
+Attendance history
 
-### **Backend**
+Monthly summary
 
-* Node.js
-* Express.js
-* JWT Authentication
+Manager dashboard
 
-### **Database**
+Team calendar
 
-* PostgreSQL
+Filters & CSV export
 
----
+🚀 Tech Stack
+Frontend
 
-## 🧠 **Project Overview**
+React
 
-This system provides two user roles:
+Zustand / Redux Toolkit
 
-### 👨‍💼 **Employee**
+TailwindCSS
 
-* Register / Login
-* Mark daily attendance (Check In / Check Out)
-* View personal attendance history
-* Monthly summaries
-* Dashboard with stats
+Vite
 
-### 👩‍💼 **Manager**
+Backend (BaaS)
 
-* Login
-* View attendance of all employees
-* Filter by employee, date, or status
-* Team calendar overview
-* Export attendance reports (CSV)
-* Team dashboard with statistics & charts
+Supabase
 
----
+Authentication
+
+PostgreSQL Database
+
+Row-Level Security Policies
+
+RESTful and Realtime APIs
+
+Deployment
+
+Render (Frontend hosting)
+
+🧠 Project Overview
+
+The system supports two user roles:
+
+👨‍💼 Employee Features
+
+Login / Register
+
+Daily Check-In / Check-Out
+
+View attendance history
+
+Monthly attendance summary
+
+Dashboard with stats
+
+Profile page
+
+👩‍💼 Manager Features
+
+Login
+
+View attendance of all employees
+
+Filter by employee, date, and status
+
+Team calendar overview
+
+Export reports (CSV)
+
+Team dashboard with charts
 
 # 🖼 **Screenshots**
 
